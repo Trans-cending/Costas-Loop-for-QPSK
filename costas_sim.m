@@ -1,4 +1,4 @@
-% Made by transcend-ing (yj Bian from Southeast University)
+% Made by Trans-cending (yj Bian from Southeast University)
 
 clear all
 close all
