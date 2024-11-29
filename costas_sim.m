@@ -190,7 +190,7 @@ for i=1:nsym*nrep
             (((abs(sum(phase_diff(i-step+1:i))*180/pi/step)<92.5) && ...
             ((abs(sum(phase_diff(i-step+1:i))*180/pi/step)>87.5)))  && ...
             (abs(sum(phase(i-step+1:i)-2*pi*fc)/step)<10*2*pi))) && ~flag
-            fprintf('final phase deviation: %f 度\n', phase_diff(i))
+            fprintf('final phase deviation: %f \n', phase_diff(i))
             fprintf('final freq deviation: %f Hz\n', (phase(i)-2*pi*fc)/(2*pi))
             flag=1;
             j=1;
